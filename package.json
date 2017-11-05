@@ -1,0 +1,22 @@
+{
+  "name": "code-reviewer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.14.7",
+    "bluebird": "^3.5.1",
+    "nodemailer": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint-detailed-reporter": "^0.7.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0"
+  }
+}
